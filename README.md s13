@@ -1,0 +1,22 @@
+# SecureNode Solutions - Gestión de Sensores Nativos 🛡️📱
+
+Este proyecto es una aplicación móvil desarrollada con **React Native (Expo)** para la empresa **SecureNode Solutions**. La aplicación demuestra la implementación profesional de funcionalidades nativas (Cámara y Geolocalización) bajo estándares de alta seguridad y arquitectura desacoplada.
+
+## 🚀 Características Principales
+
+* **Arquitectura Desacoplada:** Uso de *Custom Hooks* para separar la lógica del hardware de la interfaz de usuario.
+* **Gestión Dinámica de Permisos:** Implementación del principio de mínimo acceso (solicitud bajo demanda).
+* **Manejo de Errores Robusto:** Control de estados cuando el usuario deniega el acceso a sensores.
+* **Configuración Multiplataforma:** Definición estática de permisos para Android e iOS en `app.json`.
+
+## 📂 Estructura del Proyecto
+
+
+
+```text
+├── hooks/
+│   ├── useCameraManager.js    # Lógica de permisos y captura de video
+│   └── useLocationManager.js  # Lógica de GPS y coordenadas
+├── App.js                     # Punto de entrada y UI principal
+├── app.json                   # Configuración nativa y permisos
+└── package.json               # Dependencias del proyecto
