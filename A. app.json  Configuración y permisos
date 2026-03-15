@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "SecureNode Solutions",
+    "slug": "securenode-solutions",
+    "version": "1.0.0",
+    "ios": {
+      "infoPlist": {
+        "NSCameraUsageDescription": "SecureNode requiere acceso a la cámara para el escaneo de seguridad.",
+        "NSLocationWhenInUseUsageDescription": "SecureNode requiere acceso a su ubicación para el registro de coordenadas."
+      }
+    },
+    "android": {
+      "permissions": [
+        "CAMERA",
+        "ACCESS_FINE_LOCATION"
+      ]
+    }
+  }
+}
